@@ -2,12 +2,17 @@
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    background-color: #FAFAFA;
 }
 header{
     width: 1276px;
     height: 110px;
     font-size: 12px;
     margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 0 0 90px 90px;
+    margin-bottom: 60px;
 }
 .container1{
     width: 1276px;
@@ -15,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 90px;
+    padding: 0 70px;
 }
 .headerright{
     margin-top: 20px;
@@ -68,12 +73,13 @@ header{
 }
 .dogimg{
     margin: 0 auto;
-    width: 1186px;
+    width: 1240px;
     height: 280px;
     background-image: url(./img/headimg/dog.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
 }
 .left-row{
     margin-left: -40px;
@@ -81,7 +87,7 @@ header{
     background-color:#FFFFFF ;
 }
 .right-row{
-    margin-right: -40px;
+    margin-right: -80px;
     padding: 18px 16px 10px 16px;
     background-color:#FFFFFF ;
 }
@@ -131,12 +137,12 @@ header{
     align-items: center;
 }
 .container2{
-    width: 1276px;
+    width: 1240px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 14px;
-    padding: 70px;
+    padding: 30px;
 }
 .box1{
     display: flex;
@@ -146,6 +152,11 @@ header{
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
+    box-shadow: inset 2px 2px 2px 2px #000000;
+    
+}
+.box1:hover{
+    box-shadow: 5px 5px 5px 5px #74B42C;
 }
 .box2{
     display: flex;
@@ -155,6 +166,10 @@ header{
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
+    box-shadow: inset 2px 2px 2px 2px #000000;
+}
+.box2:hover{
+    box-shadow: 5px 5px 5px 5px #FEEFE8;
 }
 .box3{
     display: flex;
@@ -164,6 +179,10 @@ header{
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
+    box-shadow: inset 2px 2px 2px 2px #000000;
+}
+.box3:hover{
+    box-shadow: 5px 5px 5px 5px #3CABE0;
 }
 .box4{
     display: flex;
@@ -174,6 +193,10 @@ header{
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
+    box-shadow: inset 2px 2px 2px 2px #000000;
+}
+.box4:hover{
+    box-shadow: 5px 5px 5px 5px #597DBC;
 }
 .box1-img{
     width: 44px;
@@ -231,4 +254,568 @@ header{
 }
 .span4{
     color: #CC96D0;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 378px 782px;
+    grid-column-gap: 15px;
+    margin: 0 auto;
+    width: 1240px;
+   padding: 0 30px;
+}
+.sub2container3{
+    display: grid;
+    grid-template-columns: 378px 378px;
+    grid-column-gap: 18px;
+    margin-bottom: 23px;
+}
+.subcontainer3{
+    position: relative;
+}
+.dogworld{
+    width: 378px;
+    height: 426px;
+    background-color: #F5621F;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.dogworld-txt div:first-child{
+   color: white;
+   font-size: 14px;
+   position: absolute;
+   left: 40px;
+   top: 68px;
+}
+.dogworld-txt span{
+    font-size: 24px;
+}
+.dogworld-txt-1 div:first-child{
+    width: 259px;
+    font-size: 18px;
+    position: absolute;
+    top: 105px;
+    left: 40px;
+}
+.dogworld-btn{
+    font-size: 12px;
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    width: 161px;
+    padding: 12px 21px 14px 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+.dogworld-img{
+    position: absolute;
+    top: 110px;
+    left: 135px;
+}
+.fishworld{
+    width: 378px;
+    height: 202.83px;
+    background-color: #3CABE0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.fishimg{
+    position: absolute;
+    bottom: 223px;
+    
+}
+.fishworld-txt {
+    width: 271px;
+    position: absolute;
+    left: 70px;
+}
+.fishworld-txt span{
+    font-size: 24px;
+  
+}
+.fishworld-txt div:first-child{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    z-index: 4;
+}
+.fishworld-btn{
+    font-size: 12px;
+    position: absolute;
+    top: 145px;
+    left: 106px;
+    width: 161px;
+    padding: 12px 21px 14px 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+.birdworld{
+    width: 378px;
+    height: 202.83px;
+    background-color: #74B42C;
+   border-radius: 10px;
+}
+.birdworldimg{
+    position: absolute;
+    bottom: 195px;
+    left: 365px;
+}
+.birdworld-txt{
+    position: absolute;
+    z-index: 1;
+    width: 262px;
+    top: 34px;
+    left: 450px;
+}
+.birdworld-txt div:first-child{
+    color: white;
+    font-size: 18px;
+}
+.birdworld-txt span{
+    font-size: 24px;
+}
+.birdworld-btn{
+    font-size: 12px;
+    position: absolute;
+    top: 110px;
+    width: 161px;
+    padding: 12px 21px 14px 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+.catworld{
+    width: 782px;
+    height: 200px;
+    background-color: #F5AD00;
+    overflow: hidden;
+   border-radius: 10px;
+}
+.catworld-img1{
+   position: absolute;
+   top:99px;
+   right: 568px;
+}
+.catworld-img2{
+    position: absolute;
+    right: 19px;
+    top: 242px;
+}
+.cat-txt{
+    position: absolute;
+    top: 280px;
+    right: 212px;
+    z-index: 2;
+}
+.cat-txt div:first-child{
+    width: 267px;
+    color: white;
+    font-size: 18px;
+}
+.cat-txt span{
+    font-size: 24px;
+}
+.catworld-btn{
+    font-size: 12px;
+    position: absolute;
+    top: 80px;
+    width: 161px;
+    padding: 12px 21px 14px 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+.container4{
+    width: 1300px;
+    margin: 0 auto;
+}
+.subcontainer4{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-row-left{
+    padding: 22px 17.3px 20px 17px;
+    background-color: white;
+}
+.product-row-right{
+    padding: 22px 17.3px 20px 17px;
+    background-color: white;
+}
+.pedigre{
+    width: 277px;
+    height: 441px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+.pedigre-txt p:first-child{
+   font-size: 18px;
+   margin-bottom: 10px;
+   margin-right: 145px;
+}
+.pedigre-txt p:last-child{
+    font-size: 12px;
+    color: #6E6E6E;
+}
+.pedigre-img span{
+    position: absolute;
+    z-index: 3;
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+    background-color: #F5621F;
+}
+.weight-box-pedigre{
+    display: grid;
+    grid-template-columns: 105px 105px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.weight-box-pedigre div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+    background-color: #F8F8F8;
+}
+.weight-box-pedigre div:hover{
+    background-color: #E7E7E7;
+}
+.pedigre-footer{
+    width: 22ppx;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.pedigre-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background-color: green;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+.price-pedigre{
+    font-size: 24px;
+    color: red;
+    margin-top: 5px;
+}
+.price-pedigre span{
+    font-size: 11px;
+    color: black;text-decoration: line-through;
+}
+.royalcanin1{
+    width: 277px;
+    height: 441px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.royalcanin1 p:first-child{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 145px;
+ }
+ .royalcanin1 p:last-child{
+    font-size: 12px;
+    color: #6E6E6E;
+}
+.weight-box-royalcanin1{
+    display: grid;
+    grid-template-columns: 105px 105px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.weight-box-royalcanin1 div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+    background-color: #F8F8F8;
+}
+.weight-box-royalcanin1 div:hover{
+    background-color: #E7E7E7;
+}
+.royalcanin1-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.royalcanin1-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background-color: #F5621F;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+.price-royalcanin1{
+    margin-top: 10px;
+    font-size: 24px;
+    color: black;
+    margin-top: 5px;
+}
+.royalcanin2{
+    width: 277px;
+    height: 441px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.royalcanin2 p:first-child{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 145px;
+ }
+ .royalcanin2 p:last-child{
+    font-size: 12px;
+    color: #6E6E6E;
+}
+.weight-box-royalcanin2{
+    display: grid;
+    grid-template-columns: 105px 105px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-bottom: 70px;
+}
+.weight-box-royalcanin2 div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+    background-color: #F8F8F8;
+}
+.weight-box-royalcanin2 div:hover{
+    background-color: #E7E7E7;
+}
+.royalcanin2-footer{
+    font-size: 14px;
+    margin-right: 90px;
+}
+.royalcanin3{
+    width: 277px;
+    height: 441px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.royalcanin3 p:first-child{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 145px;
+ }
+ .royalcanin3 p:last-child{
+    font-size: 12px;
+    color: #6E6E6E;
+}
+.weight-box-royalcanin3{
+    display: grid;
+    grid-template-columns: 105px 105px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-bottom: 60px;
+}
+.weight-box-royalcanin3 div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 105px;
+    height: 35px;
+    background-color: #F8F8F8;
+}
+.weight-box-royalcanin3 div:hover{
+    background-color: #E7E7E7;
+}
+.royalcanin3-footer{
+    display: flex;
+   justify-content: space-between;
+   width: 220px;
+}
+.price-royalcanin3{
+    font-size: 24px;
+}
+.added-btn{
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    padding: 8px 13px 10px 13px;
+    background-color: #F5621F;
+}
+.title{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title div:first-child{
+    font-size: 28px;
+}
+.title div:last-child{
+    font-size: 14px;
+    color: #9C9C9C;
+}
+.container5{
+    display: flex;
+    margin: 20px auto;
+    width: 1240px;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.zoocard{
+    width: 378px;
+    height: 527.65px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+.card-txt{
+    position: absolute;
+    top: 67px;
+    right: 68px;
+    text-align: center;
+    width: 242px;
+    font-size: 24px;
+}
+.card-txt span{
+    color: #74B42C;
+}
+#redspan{
+    color: red;
+}
+.card1{
+    position: absolute;
+    top: 160px;
+    z-index: 2;
+}
+.card2{
+    position: absolute;
+    top: 300px;
+}
+.card3{
+    position: absolute;
+    top: 205px;
+    left: 70px;
+    z-index: 1;
+    transform: rotate(160deg);
+}
+.rabit{
+    overflow: hidden;
+    width: 378px;
+    height: 527.65px;
+    background-color: #FEE02E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+.rabit-img2{
+    position: absolute;
+   right: -10px;
+   top: 30px;
+   z-index: 2;
+}
+.rabit-img1{
+    position: absolute;
+    top: 210px;
+    right: 50px;
+}
+.rabit-btn{
+    font-size: 12px;
+    position: absolute;
+    top: 131px;
+    left: 40px;
+    width: 161px;
+    padding: 12px 21px 14px 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+.rabit-txt div:first-child{
+    width: 220px;
+    font-size: 18px;
+    position: absolute;
+    top: 38px;
+    left: 40px;
+}
+.rabit-txt span{
+    font-size: 24px;
+}
+.mostsaleproduct{
+    width: 378px;
+    height: 527.65px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 10px;
+}
+.most-btn{
+    font-size: 12px;
+    position: absolute;
+    top: 430px;
+    width: 161px;
+    padding: 12px 21px 14px 24px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+.most-left-row{
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 18px 12px 10px 12px;
+    background-color:black ;
+}
+.most-right-row{
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 18px 12px 10px 12px;
+    background-color:black ;
+}
+.most-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.most-pedigre{
+    position: absolute;
+    top:370px
+}
+.most-txt {
+    left: 30px;
+    top: 50px;
+    position: absolute;
+    width: 187px;
+    font-size: 18px;
 }
