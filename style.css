@@ -7,15 +7,22 @@ header{
     width: 1276px;
     height: 110px;
     font-size: 12px;
+    margin: 0 auto;
+}
+.container1{
+    width: 1276px;
+    height: 110px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 90px;
 }
 .headerright{
     margin-top: 20px;
     width: 180px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .burgermenu{
     display: flex;
@@ -30,22 +37,15 @@ header{
     height: 2px;
     background-color: black;
 }
-.dogimg{
-    width: 1186px;
-    height: 280px;
-    background-image: url(./img/headimg/dog.png);
-}
 .num13{
     font-size: 12px;
     color: #F5621F;
     font-weight: 700;
     margin-left: 20px;
-    
 }
 .imgandnam13{
    margin-top: -12px;
    margin-left: 10px;
-   margin-right: 10px;
 }
 .bin img{
     width: 18px;
@@ -61,5 +61,174 @@ header{
 .smile img{
     margin-top: -1px;
     margin-bottom: 5px;
-    margin-left: 8px;
+    
+}
+.smile p{
+   margin-left: -5px;
+}
+.dogimg{
+    margin: 0 auto;
+    width: 1186px;
+    height: 280px;
+    background-image: url(./img/headimg/dog.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-row{
+    margin-left: -40px;
+    padding: 18px 16px 10px 16px;
+    background-color:#FFFFFF ;
+}
+.right-row{
+    margin-right: -40px;
+    padding: 18px 16px 10px 16px;
+    background-color:#FFFFFF ;
+}
+.sale30{
+    width: 354px;
+    height: 96px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.dogimg-btn{
+    margin: 0 auto;
+    text-align: center;
+    width: 176px;
+    font-size: 12px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.scrol1{
+    width: 28px;
+    height: 5px;
+    background-color: #FFFFFF;
+}
+.scrol2{
+    width: 12px;
+    height: 5px;
+    background-color: #707070;
+}
+.imgscrol{
+    width: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+.dogimg-txt{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.dogimg-content{
+    width: 1186px;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container2{
+    width: 1276px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    padding: 70px;
+}
+.box1{
+    display: flex;
+    width: 277px;
+    height: 90px;
+    background-color: #F1F7E9;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.box2{
+    display: flex;
+    width: 277px;
+    height: 90px;
+    background-color: #FEEFE8;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.box3{
+    display: flex;
+    width: 277px;
+    height: 90px;
+    background-color: #EBF7FC;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.box4{
+    display: flex;
+    width: 277px;
+    height: 90px;
+    background-color: #FAF4FA;
+    box-shadow: #FAF4FA;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1-img{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3F0D4;
+}
+.box2-img{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDDFD2;
+}
+.box3-img{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #3cace03a;
+}
+.box4-img{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(204, 150, 208, 0.2);
+}
+.box1-txt{
+    width: 120px;
+}
+.box2-txt{
+    width: 159px;
+}
+.box3-txt{
+    width: 121px;
+}
+.box4-txt{
+    width: 117px;
+}
+.span1{
+    color: #74B42C;
+}
+.span2{
+    color: #F5621F;
+}
+.span3{
+    color: #3CABE0;
+}
+.span4{
+    color: #CC96D0;
 }
