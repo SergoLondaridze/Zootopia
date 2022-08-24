@@ -1,0 +1,65 @@
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 1276px;
+    height: 110px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerright{
+    margin-top: 20px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.burgermenu{
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 16px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.burgermenu-1{
+    width: 25px;
+    height: 2px;
+    background-color: black;
+}
+.dogimg{
+    width: 1186px;
+    height: 280px;
+    background-image: url(./img/headimg/dog.png);
+}
+.num13{
+    font-size: 12px;
+    color: #F5621F;
+    font-weight: 700;
+    margin-left: 20px;
+    
+}
+.imgandnam13{
+   margin-top: -12px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.bin img{
+    width: 18px;
+    height: 17px;
+    margin-bottom: 6px;
+}
+.search img{
+    width: 22px;
+    height: 22px;
+    margin-bottom: 5px;
+    margin-top: -2px;
+}
+.smile img{
+    margin-top: -1px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
