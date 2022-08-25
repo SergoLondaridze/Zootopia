@@ -1,12 +1,11 @@
 .container{
-    max-width: 1366px;
+    max-width: 1326px;
     width: 100%;
     margin: 0 auto;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 }
 header{
-    width: 1276px;
-    height: 110px;
+    max-width: 1276px;
     font-size: 12px;
     margin: 0 auto;
     background-color: #FFFFFF;
@@ -15,16 +14,16 @@ header{
     margin-bottom: 60px;
 }
 .container1{
-    width: 1276px;
+    max-width: 1276px;
     height: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 70px;
+    padding: 0 50px;
 }
 .headerright{
     margin-top: 20px;
-    width: 180px;
+    width: 14%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,11 +45,11 @@ header{
     font-size: 12px;
     color: #F5621F;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 60%;
 }
 .imgandnam13{
    margin-top: -12px;
-   margin-left: 10px;
+   margin-left: 20%;
 }
 .bin img{
     width: 18px;
@@ -73,7 +72,8 @@ header{
 }
 .dogimg{
     margin: 0 auto;
-    width: 1240px;
+    max-width: 1186px;
+    width: 100%;
     height: 280px;
     background-image: url(./img/headimg/dog.png);
     background-position: 50%;
@@ -82,18 +82,15 @@ header{
     border-radius: 10px;
 }
 .left-row{
-    margin-left: -40px;
     padding: 18px 16px 10px 16px;
     background-color:#FFFFFF ;
 }
 .right-row{
-    margin-right: -80px;
     padding: 18px 16px 10px 16px;
     background-color:#FFFFFF ;
 }
 .sale30{
-    width: 354px;
-    height: 96px;
+    width: 45%;
     color: white;
     font-size: 24px;
     text-align: center;
@@ -123,44 +120,44 @@ header{
     justify-content: space-between;
 }
 .dogimg-txt{
-    height: 200px;
+    height: 71%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 .dogimg-content{
-    width: 1186px;
+    max-width: 1186px;
     height: 280px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .container2{
-    width: 1240px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1186px;
+    margin: 20px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 14px;
-    padding: 30px;
+   padding: 0 30px;
 }
 .box1{
     display: flex;
-    width: 277px;
+    width: 23.5%;
     height: 90px;
     background-color: #F1F7E9;
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
     box-shadow: inset 2px 2px 2px 2px #000000;
-    
 }
 .box1:hover{
     box-shadow: 5px 5px 5px 5px #74B42C;
 }
 .box2{
     display: flex;
-    width: 277px;
+    width: 23.5%;
     height: 90px;
     background-color: #FEEFE8;
     border-radius: 10px;
@@ -173,7 +170,7 @@ header{
 }
 .box3{
     display: flex;
-    width: 277px;
+    width: 23.5%;
     height: 90px;
     background-color: #EBF7FC;
     border-radius: 10px;
@@ -186,7 +183,7 @@ header{
 }
 .box4{
     display: flex;
-    width: 277px;
+    width: 23.5%;
     height: 90px;
     background-color: #FAF4FA;
     box-shadow: #FAF4FA;
@@ -257,23 +254,23 @@ header{
 }
 .container3{
     display: grid;
-    grid-template-columns: 378px 782px;
-    grid-column-gap: 15px;
+    grid-template-columns: 31% 65.7%;
+    grid-column-gap: 1.3%;
     margin: 0 auto;
-    width: 1240px;
-   padding: 0 30px;
+    max-width: 1190px;
+    padding: 0 30px; 
 }
 .sub2container3{
     display: grid;
-    grid-template-columns: 378px 378px;
-    grid-column-gap: 18px;
-    margin-bottom: 23px;
+    grid-template-columns: 31% 31%;
+    grid-column-gap: 18.5%;
+    margin-bottom: 18px;
 }
 .subcontainer3{
     position: relative;
 }
 .dogworld{
-    width: 378px;
+    width: 100%;
     height: 426px;
     background-color: #F5621F;
     overflow: hidden;
@@ -284,24 +281,24 @@ header{
    color: white;
    font-size: 14px;
    position: absolute;
-   left: 40px;
-   top: 68px;
+   left: 10%;
+   top: 16%;
 }
 .dogworld-txt span{
     font-size: 24px;
 }
 .dogworld-txt-1 div:first-child{
-    width: 259px;
+    width: 68.5%;
     font-size: 18px;
     position: absolute;
-    top: 105px;
-    left: 40px;
+    top: 25%;
+    left: 10.6%;
 }
 .dogworld-btn{
     font-size: 12px;
     position: absolute;
-    top: 190px;
-    left: 40px;
+    top: 47%;
+    left: 10.5%;
     width: 161px;
     padding: 12px 21px 14px 24px;
     background-color: white;
@@ -309,11 +306,11 @@ header{
 }
 .dogworld-img{
     position: absolute;
-    top: 110px;
-    left: 135px;
+    top: 25.8%;
+    left: 35.7%;
 }
 .fishworld{
-    width: 378px;
+    width: 156%;
     height: 202.83px;
     background-color: #3CABE0;
     overflow: hidden;
@@ -321,13 +318,13 @@ header{
 }
 .fishimg{
     position: absolute;
-    bottom: 223px;
+    bottom: 52.3%;
     
 }
 .fishworld-txt {
-    width: 271px;
+    width: 40%;
     position: absolute;
-    left: 70px;
+    left: 9%;
 }
 .fishworld-txt span{
     font-size: 24px;
@@ -344,29 +341,30 @@ header{
     font-size: 12px;
     position: absolute;
     top: 145px;
-    left: 106px;
-    width: 161px;
+    left: 35%;
+    width: 60%;
     padding: 12px 21px 14px 24px;
     background-color: white;
     border-radius: 5px;
 }
 .birdworld{
-    width: 378px;
+    width: 156%;
     height: 202.83px;
     background-color: #74B42C;
    border-radius: 10px;
+   position: relative;
 }
 .birdworldimg{
     position: absolute;
-    bottom: 195px;
-    left: 365px;
+    bottom: -8%;
+    right: -3%;
 }
 .birdworld-txt{
     position: absolute;
     z-index: 1;
-    width: 262px;
-    top: 34px;
-    left: 450px;
+    width: 60%;
+    top: 15%;
+    left: 10%;
 }
 .birdworld-txt div:first-child{
     color: white;
@@ -385,30 +383,31 @@ header{
     border-radius: 5px;
 }
 .catworld{
-    width: 782px;
+    width: 99%;
     height: 200px;
     background-color: #F5AD00;
     overflow: hidden;
    border-radius: 10px;
+   position: relative;
 }
 .catworld-img1{
    position: absolute;
-   top:99px;
-   right: 568px;
+   top:-60%;
+   right: 72.6%;
 }
 .catworld-img2{
     position: absolute;
-    right: 19px;
-    top: 242px;
+    right: 5%;
+    top: 10%;
 }
 .cat-txt{
     position: absolute;
-    top: 280px;
-    right: 212px;
+    top: 20%;
+     left: 35%;
     z-index: 2;
 }
 .cat-txt div:first-child{
-    width: 267px;
+    width: 60%;
     color: white;
     font-size: 18px;
 }
@@ -425,11 +424,11 @@ header{
     border-radius: 5px;
 }
 .container4{
-    width: 1300px;
+    max-width: 1326px;
     margin: 0 auto;
 }
 .subcontainer4{
-    width: 1300px;
+    max-width: 1300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -443,7 +442,7 @@ header{
     background-color: white;
 }
 .pedigre{
-    width: 277px;
+    width: 21%;
     height: 441px;
     background-color: white;
     display: flex;
@@ -513,7 +512,7 @@ header{
     color: black;text-decoration: line-through;
 }
 .royalcanin1{
-    width: 277px;
+    width: 21%;
     height: 441px;
     background-color: white;
     display: flex;
@@ -570,7 +569,7 @@ header{
     margin-top: 5px;
 }
 .royalcanin2{
-    width: 277px;
+    width: 21%;
     height: 441px;
     background-color: white;
     display: flex;
@@ -611,7 +610,7 @@ header{
     margin-right: 90px;
 }
 .royalcanin3{
-    width: 277px;
+    width: 21%;
     height: 441px;
     background-color: white;
     display: flex;
@@ -681,12 +680,12 @@ header{
 .container5{
     display: flex;
     margin: 20px auto;
-    width: 1240px;
-    justify-content: space-between;
-    padding: 0 40px;
+    max-width: 1186px;
+    justify-content: space-around;
+    
 }
 .zoocard{
-    width: 378px;
+    width: 32%;
     height: 527.65px;
     background-color: white;
     display: flex;
@@ -697,10 +696,10 @@ header{
 }
 .card-txt{
     position: absolute;
-    top: 67px;
-    right: 68px;
+    top: 10%;
+    right: 18%;
     text-align: center;
-    width: 242px;
+    width: 60%;
     font-size: 24px;
 }
 .card-txt span{
@@ -711,23 +710,23 @@ header{
 }
 .card1{
     position: absolute;
-    top: 160px;
+    top: 31%;
     z-index: 2;
 }
 .card2{
     position: absolute;
-    top: 300px;
+    top: 57%;
 }
 .card3{
     position: absolute;
-    top: 205px;
-    left: 70px;
+    top: 41%;
+    left: 18.5%;
     z-index: 1;
     transform: rotate(160deg);
 }
 .rabit{
     overflow: hidden;
-    width: 378px;
+    width: 32%;
     height: 527.65px;
     background-color: #FEE02E;
     display: flex;
@@ -737,38 +736,38 @@ header{
     border-radius: 10px;
 }
 .rabit-img2{
-    position: absolute;
-   right: -10px;
-   top: 30px;
+   position: absolute;
+   left: 10%;
+   top: 6%;
    z-index: 2;
 }
 .rabit-img1{
     position: absolute;
-    top: 210px;
-    right: 50px;
+    top: 40%;
+    right: 10%;
 }
 .rabit-btn{
     font-size: 12px;
     position: absolute;
-    top: 131px;
-    left: 40px;
+    top: 25%;
+    left: 10%;
     width: 161px;
     padding: 12px 21px 14px 24px;
     background-color: white;
     border-radius: 5px;
 }
 .rabit-txt div:first-child{
-    width: 220px;
+    width: 40%;
     font-size: 18px;
     position: absolute;
-    top: 38px;
-    left: 40px;
+    top: 10%;
+    left: 10%;
 }
 .rabit-txt span{
     font-size: 24px;
 }
 .mostsaleproduct{
-    width: 378px;
+    width: 32%;
     height: 527.65px;
     background-color: white;
     display: flex;
@@ -781,7 +780,7 @@ header{
 .most-btn{
     font-size: 12px;
     position: absolute;
-    top: 430px;
+    top: 80%;
     width: 161px;
     padding: 12px 21px 14px 24px;
     background-color: black;
@@ -810,7 +809,7 @@ header{
 }
 .most-pedigre{
     position: absolute;
-    top:370px
+    top:70%;
 }
 .most-txt {
     left: 30px;
@@ -818,4 +817,108 @@ header{
     position: absolute;
     width: 187px;
     font-size: 18px;
+}
+
+.container6{
+    margin: 50px auto;
+    background-color: #F5AD00;
+    max-width: 1186px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+    flex: 0 1 auto;
+    position: relative;
+}
+.turtle-img{
+    position: absolute;
+    right: 3%;
+    top: -20%;
+}
+.turtle-txt{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+.turtle-title{
+    width: 50%;
+    color: white;
+    font-size: 32px;
+}
+.turtle-btn{
+    margin-top: 30px;
+    font-size: 12px;
+    top: 25%;
+    left: 10%;
+    width: 161px;
+    padding: 12px 21px 14px 24px;
+    background-color: white;
+    border-radius: 5px;
+}
+.brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1326px;
+    margin: 0 auto;
+}
+.brand1{
+    width: 13.3%;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+}
+.brand-row-left{
+    padding: 18px 16px 10px 16px;
+    background-color:#FFFFFF ;
+}
+.brand-title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 6%;
+    font-size: 28px;
+}
+.container8{
+    margin-left: 90px;
+    margin-top: 100px;
+    max-width: 1085px;
+    height: 213px;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 34.8% 9% 11.4% 16%;
+    grid-column-gap: 9.2%;
+    /* line-height: 18px; */
+}
+.title2{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.txt2{
+    /* height: 213px; */
+    line-height: 30px;
+}
+.img-box1{
+    margin-bottom: 20px;
+}
+.facebook{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.paymetod{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 6%;
+    margin-top: 10%;
+    margin-bottom: 2%;
 }
