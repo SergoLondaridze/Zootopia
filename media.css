@@ -4,6 +4,7 @@
         width: 100%;
         margin: 0 auto;
         overflow: hidden;
+        position: relative;
     }
     .headerright,.burgermenu{
         display: none;
@@ -330,18 +331,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
 }
 footer{
     display: flex;
     justify-content: center;
 }
 .media-footer{
-    margin-top: 150px;
+    border-radius: 10px;
+    background-color: white;
     display: flex;
-    max-width: 320px;
+    width: 320px;
     height: 60px;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    z-index: 5;
+    bottom: 1px;
+    
 }
 .main-home{
     text-align: center;
