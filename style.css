@@ -4,6 +4,15 @@
     margin: 0 auto;
     background-color: #fafafa;
 }
+.container-formedia{
+    display: none;
+}
+.txt-formedia{
+    display: none;
+}
+.media-footer{
+    display: none;
+}
 header{
     max-width: 1276px;
     font-size: 12px;
@@ -13,6 +22,9 @@ header{
     border-radius: 0 0 90px 90px;
     margin-bottom: 60px;
 }
+.language{
+    display: none;
+} 
 .container1{
     max-width: 1276px;
     height: 110px;
@@ -319,7 +331,6 @@ header{
 .fishimg{
     position: absolute;
     bottom: 52.3%;
-    
 }
 .fishworld-txt {
     width: 40%;
@@ -454,7 +465,7 @@ header{
 }
 .pedigre-txt p:first-child{
    font-size: 18px;
-   margin-bottom: 10px;
+   margin-bottom: 8%;
    margin-right: 145px;
 }
 .pedigre-txt p:last-child{
@@ -487,7 +498,6 @@ header{
     background-color: #E7E7E7;
 }
 .pedigre-footer{
-    width: 22ppx;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -682,7 +692,6 @@ header{
     margin: 20px auto;
     max-width: 1186px;
     justify-content: space-around;
-    
 }
 .zoocard{
     width: 32%;
@@ -838,7 +847,6 @@ header{
     position: absolute;
     top: 20%;
     left: 10%;
-    
 }
 .turtle-title{
     width: 50%;

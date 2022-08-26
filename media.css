@@ -1,0 +1,353 @@
+@media(max-width:320px){
+    .container{
+        width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .headerright,.burgermenu{
+        display: none;
+    }
+    .imgzootopia img{
+        padding-left: 0;
+        margin-left: 0px;
+        width: 106px;
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+    }
+    .imgzootopia-1{
+        max-width: 320px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .language{
+        margin-left: 50px;
+        display:block;
+        font-size: 14px;
+    }
+    .dogimg{
+        margin-top: -100px;
+        max-width: 320px;
+        height: 280px;
+        background-image: url('./img/responsive/Rectangle\ 471.png');
+    }
+    .dogimg-btn , .right-row , .left-row{
+        display: none;
+    }
+    .sale30{
+        margin-top: 90px;
+        font-size: 14px;
+        width: 206px;
+    }
+    .imgscrol{
+        margin-bottom: 20px;
+    }
+    .container2{
+        max-width: 320px;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .box1,.box2 , .box3 , .box4{
+        width: 90%;
+    }
+    .container3{
+       margin-left: 15px;
+        display: grid;
+        grid-template-columns: 95%;
+        grid-row-gap: 20px;
+    }
+    .sub2container3{
+        display: grid;
+        grid-template-columns: 66%;
+        grid-row-gap: 20px;
+    }
+    .birdworldimg img{
+        max-width: 206px;
+    }
+    .dogworld{
+        height: 240px;
+    }
+    .dogworld-img{
+        position: absolute;
+        top: 35%;
+        left: 53%;
+    }
+    .dogworld-img img{
+        width: 128px;
+    }
+    .dogworld-btn{
+        top: 70%;
+        left: 10.5%;
+        width: 161px;
+    }
+    .dogworld-txt span{
+        font-size: 18px;
+    }
+    .dogworld-txt-1 div:first-child{
+        width: 90%;
+        font-size: 14px;
+        top: 30%;
+        left: 10.6%;
+    }
+    .fishimg img{
+        width: 197px;
+    }
+    .fishimg {
+       top: 15%;
+    }
+    .fishworld-txt span{
+        font-size: 18px;
+    }
+    .fishworld-txt div:first-child{
+        color: white;
+        font-size: 14px;
+        top: 40px;
+    }
+    .fishworld-txt {
+        width: 80%;
+        position: absolute;
+        left: 9%;
+    }
+    .fishworld-btn{
+        top: 145px;
+        left: 35%;
+        width: 81%;
+        padding: 12px 21px 14px 24px;
+    }
+    .birdworldimg{
+        position: absolute;
+        bottom: -5%;
+        right: -2%;
+        z-index: 4;
+    }
+    .birdworld-txt div:first-child{
+        font-size: 14px;
+    }
+    .birdworld-txt span{
+        font-size: 18px;
+    }
+    .catworld{
+        width: 105%;
+    }
+    .catworld-img1 img{
+        width: 132px;
+    }
+    .catworld-img1{
+        top:16%;
+        right: 60%;
+        z-index: 4;
+     }
+     .catworld-img2{
+        display: none;
+     }
+     .catworld-btn{
+        right: 20px;
+        top: 100px;
+        width: 161px;
+        padding: 12px 21px 14px 24px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .cat-txt span{
+        font-size: 18px;
+    }
+    .cat-txt div:first-child{
+        width: 90%;
+        font-size: 14px;
+    }
+    .title{
+        font-size: 18px;
+       
+    }
+    .title a{
+        display: none;
+    }
+    .pedigre span {
+        display: none;
+    }
+   .royalcanin1 , .royalcanin2 ,.royalcanin3 , .product-row-right , .product-row-left{
+     display: none;
+   }
+   .pedigre{
+     width: 80%;
+   }
+   .pedigre-img img{
+     width: 160px;
+   }
+   .pedigre-txt p:first-child{
+    margin-bottom: 10px;
+    margin-right: 145px;
+ }
+ .container5{
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    max-width: 256px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.zoocard{
+    width: 95%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card1 img{
+    width: 183px;
+}
+.card2 img{
+    width: 187px;
+}
+.card3 img{
+    width: 161px;
+}
+.card-txt{
+    font-size: 18px;
+}
+.rabit{
+    margin: 10px auto;
+    width: 90%;
+    height: 350px;
+}
+.rabit span{
+    font-size: 18px;
+}
+.rabit-img2 img{
+    width: 326px;
+ }
+.rabit-img2{
+    left: -20%;
+    top: -20%;
+ }
+ .mostsaleproduct{
+    margin: 10px auto;
+    width: 95%;
+    height: 350px;
+}
+.most-txt {
+    left: 30px;
+    top: 20px;
+    position: absolute;
+    width: 187px;
+    font-size: 18px;
+}
+.most-pedigre{
+    position: absolute;
+    top:75%;
+}
+.most-btn{
+    top: 85%;
+}
+.most-left-row{
+  
+}
+.mediahiden{
+    display: none;
+}
+.container8{
+    display: none;
+}
+.container6 img{
+    width: 189px;
+}
+.container6{
+    overflow: hidden;
+    margin: 40px auto;
+    max-width: 256px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+    flex: 0 1 auto;
+    position: relative;
+}
+.turtle-title{
+    width: 80%;
+    font-size: 18px;
+    
+}
+.turtle-img{
+    left: 45%;
+    top: 60%;
+  
+}
+.container-formedia{
+    height: 442px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+.container-formedia-1 {
+    left: 10px;
+    position: absolute;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 18% 18% 18%;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+.media-btn{
+    left: 28px;
+    bottom: 45px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: black;
+    width: 198px;
+    height: 42px;
+}
+.txt-formedia{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.brand{
+    font-size: 18px;
+}
+.brand div{
+    display: none;
+}
+#mediastvis{
+    display: block;
+    width: 188px;
+    margin: 0 auto;
+}
+.paymetod{
+    width: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.media-footer{
+    margin-top: 150px;
+    display: flex;
+    max-width: 320px;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-home{
+    text-align: center;
+   color: green;
+}
+.footer-search , .footer-shoping-cart , .footer-smile{
+    text-align: center;
+}
+}
